@@ -65,6 +65,7 @@ function Post(props) {
         </il>
     )
 }
+
 export default function Posts() {
     const postContent = [
         {

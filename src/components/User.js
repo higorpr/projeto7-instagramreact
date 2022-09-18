@@ -11,7 +11,7 @@ export default function User() {
             <strong>{user}'s Page</strong>
             <span>
                 {user}
-                <ion-icon name="pencil" onClick={() => setUser(prompt("What's the name you would like here?"))}></ion-icon>
+                <ion-icon name="pencil" onClick={() => setUser(prompt("Please insert your username"))}></ion-icon>
             </span>
         </div>
     </div>
